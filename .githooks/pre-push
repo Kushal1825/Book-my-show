@@ -1,0 +1,18 @@
+#!/bin/sh
+# Pre-push hook - BLOCKS all pushes by agents
+# Only the user should push manually using: git push --no-verify
+
+echo ""
+echo "=========================================="
+echo "  PUSH BLOCKED BY GUARDRAIL"
+echo "=========================================="
+echo ""
+echo "  Pushes are not allowed via agents."
+echo "  Only the project owner may push."
+echo ""
+echo "  To bypass (user only):"
+echo "    git push --no-verify"
+echo ""
+echo "=========================================="
+echo ""
+exit 1

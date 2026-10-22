@@ -1,0 +1,15 @@
+#!/bin/sh
+# Pre-rebase hook - BLOCKS all rebases by agents
+# Only the user should rebase manually
+
+echo ""
+echo "=========================================="
+echo "  REBASE BLOCKED BY GUARDRAIL"
+echo "=========================================="
+echo ""
+echo "  Rebases are not allowed via agents."
+echo "  Only the project owner may rebase."
+echo ""
+echo "=========================================="
+echo ""
+exit 1

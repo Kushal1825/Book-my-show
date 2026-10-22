@@ -1,0 +1,18 @@
+#!/bin/sh
+# Pre-commit hook - BLOCKS all commits by agents
+# Only the user should commit manually using: git commit --no-verify
+
+echo ""
+echo "=========================================="
+echo "  COMMIT BLOCKED BY GUARDRAIL"
+echo "=========================================="
+echo ""
+echo "  Commits are not allowed via agents."
+echo "  Only the project owner may commit."
+echo ""
+echo "  To bypass (user only):"
+echo "    git commit --no-verify"
+echo ""
+echo "=========================================="
+echo ""
+exit 1

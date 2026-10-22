@@ -1,0 +1,42 @@
+[
+  {
+    "id": "city_mumbai",
+    "name": "Mumbai",
+    "slug": "mumbai",
+    "state": "Maharashtra",
+    "country": "India",
+    "isActive": true
+  },
+  {
+    "id": "city_delhi_ncr",
+    "name": "Delhi-NCR",
+    "slug": "delhi-ncr",
+    "state": "Delhi",
+    "country": "India",
+    "isActive": true
+  },
+  {
+    "id": "city_bengaluru",
+    "name": "Bengaluru",
+    "slug": "bengaluru",
+    "state": "Karnataka",
+    "country": "India",
+    "isActive": true
+  },
+  {
+    "id": "city_hyderabad",
+    "name": "Hyderabad",
+    "slug": "hyderabad",
+    "state": "Telangana",
+    "country": "India",
+    "isActive": true
+  },
+  {
+    "id": "city_chennai",
+    "name": "Chennai",
+    "slug": "chennai",
+    "state": "Tamil Nadu",
+    "country": "India",
+    "isActive": true
+  }
+]

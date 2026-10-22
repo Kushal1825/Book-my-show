@@ -1,0 +1,8 @@
+name: book-my-show
+
+include:
+  - docker/mongo/compose.yml
+  - docker/redis/compose.yml
+  - docker/elastic/compose.yml
+  - docker/nginx/compose.yml
+  - docker/app/compose.yml

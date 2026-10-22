@@ -1,0 +1,91 @@
+[
+  {
+    "id": "show_101",
+    "cinemaId": "cinema_pvr_infiniti",
+    "movieTitle": "Inception",
+    "screenNumber": 1,
+    "format": "IMAX",
+    "language": "English",
+    "startTime": "2026-10-25T14:30:00.000Z",
+    "endTime": "2026-10-25T17:00:00.000Z",
+    "pricing": {
+      "silver": 250,
+      "gold": 400,
+      "platinum": 600
+    },
+    "totalSeats": 240,
+    "availableSeats": 182,
+    "status": "SCHEDULED"
+  },
+  {
+    "id": "show_102",
+    "cinemaId": "cinema_pvr_infiniti",
+    "movieTitle": "Interstellar",
+    "screenNumber": 2,
+    "format": "2D",
+    "language": "English",
+    "startTime": "2026-10-25T18:00:00.000Z",
+    "endTime": "2026-10-25T21:00:00.000Z",
+    "pricing": {
+      "silver": 200,
+      "gold": 320,
+      "platinum": 500
+    },
+    "totalSeats": 180,
+    "availableSeats": 95,
+    "status": "SCHEDULED"
+  },
+  {
+    "id": "show_103",
+    "cinemaId": "cinema_inox_inorbit",
+    "movieTitle": "The Dark Knight",
+    "screenNumber": 3,
+    "format": "IMAX",
+    "language": "English",
+    "startTime": "2026-10-25T20:30:00.000Z",
+    "endTime": "2026-10-25T23:05:00.000Z",
+    "pricing": {
+      "silver": 280,
+      "gold": 450,
+      "platinum": 650
+    },
+    "totalSeats": 260,
+    "availableSeats": 140,
+    "status": "SCHEDULED"
+  },
+  {
+    "id": "show_104",
+    "cinemaId": "cinema_pvr_ambience",
+    "movieTitle": "Oppenheimer",
+    "screenNumber": 1,
+    "format": "Gold Class",
+    "language": "English",
+    "startTime": "2026-10-26T15:00:00.000Z",
+    "endTime": "2026-10-26T18:00:00.000Z",
+    "pricing": {
+      "gold": 800,
+      "platinum": 1200
+    },
+    "totalSeats": 60,
+    "availableSeats": 34,
+    "status": "SCHEDULED"
+  },
+  {
+    "id": "show_105",
+    "cinemaId": "cinema_pvr_vega",
+    "movieTitle": "Dune: Part Two",
+    "screenNumber": 4,
+    "format": "4DX",
+    "language": "English",
+    "startTime": "2026-10-26T19:15:00.000Z",
+    "endTime": "2026-10-26T22:05:00.000Z",
+    "pricing": {
+      "silver": 350,
+      "gold": 550,
+      "platinum": 750
+    },
+    "totalSeats": 150,
+    "availableSeats": 78,
+    "status": "SCHEDULED"
+  }
+]

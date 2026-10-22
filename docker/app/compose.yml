@@ -1,0 +1,19 @@
+services:
+  app:
+    build:
+      context: ../../
+      dockerfile: docker/app/Dockerfile.dev
+    container_name: bms-app
+    restart: unless-stopped
+    ports:
+      - "3000:3000"
+    env_file:
+      - ../../.env
+    volumes:
+      # Mount project root for live reload during development
+      - ../../:/app
+      # Preserve container's node_modules (avoid host overwrite)
+      - /app/node_modules
+    depends_on:
+      - mongo
+      - redis

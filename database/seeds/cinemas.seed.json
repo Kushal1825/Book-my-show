@@ -1,0 +1,47 @@
+[
+  {
+    "id": "cinema_pvr_infiniti",
+    "name": "PVR ICON, Infiniti Mall",
+    "cityId": "city_mumbai",
+    "address": "Infiniti Mall, Link Road, Andheri West, Mumbai",
+    "totalScreens": 6,
+    "supportedFormats": ["2D", "3D", "IMAX", "4DX"],
+    "isActive": true
+  },
+  {
+    "id": "cinema_inox_inorbit",
+    "name": "INOX Megaplex, Inorbit Mall",
+    "cityId": "city_mumbai",
+    "address": "Inorbit Mall, Malad West, Mumbai",
+    "totalScreens": 11,
+    "supportedFormats": ["2D", "3D", "IMAX", "ScreenX", "MX4D"],
+    "isActive": true
+  },
+  {
+    "id": "cinema_pvr_ambience",
+    "name": "PVR Directors Cut, Ambience Mall",
+    "cityId": "city_delhi_ncr",
+    "address": "Ambience Mall, Nelson Mandela Road, Vasant Kunj, New Delhi",
+    "totalScreens": 4,
+    "supportedFormats": ["2D", "3D", "Gold Class"],
+    "isActive": true
+  },
+  {
+    "id": "cinema_pvr_vega",
+    "name": "PVR Superplex, Vega City Mall",
+    "cityId": "city_bengaluru",
+    "address": "Vega City Mall, Bannerghatta Road, Bengaluru",
+    "totalScreens": 12,
+    "supportedFormats": ["2D", "3D", "IMAX", "4DX", "PlayHouse"],
+    "isActive": true
+  },
+  {
+    "id": "cinema_amb_gachibowli",
+    "name": "AMB Cinemas",
+    "cityId": "city_hyderabad",
+    "address": "Sarath City Capital Mall, Gachibowli, Hyderabad",
+    "totalScreens": 7,
+    "supportedFormats": ["2D", "3D", "Laser", "VIP"],
+    "isActive": true
+  }
+]
